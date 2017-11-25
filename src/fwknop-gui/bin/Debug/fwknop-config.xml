@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <ServerList>
+    <server_ip>10.10.10.1</server_ip>
+    <fwk_protocol>tcp</fwk_protocol>
+    <fwk_port>3128</fwk_port>
+    <comment>test</comment>
+  </ServerList>
+  <ServerList>
+    <server_ip>192.168.1.1</server_ip>
+    <fwk_protocol>tcp</fwk_protocol>
+    <fwk_port>8888</fwk_port>
+    <comment>test2</comment>
+  </ServerList>
+</NewDataSet>

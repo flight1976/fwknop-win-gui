@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="fwknop-gui.exe" version="1.0.0.0" publicKeyToken="d0f37ccb1e6ff8fc" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="fwknop-gui" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="fwknop-gui.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fwknop-gui.exe" size="29696">
+      <assemblyIdentity name="fwknop-gui" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Yxn4j2Hf9tLAjLRTNF4Aff+8PH8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9itSD7gNUGosH0KKJYi5EFMaZCE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=flight-PC\flight" issuerKeyHash="56b435fef7c9dd770f8349ca02d873815a810255" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mJL0KaXM6zcs+KD5aoWtvath+7k=</DigestValue></Reference></SignedInfo><SignatureValue>EPzo4hZVRlm9QPf9Xvwps7uJbnR+hbLSw7A9NCOw+pBkeLNu5QpLfTT7GIe0f/pXiXs56wSx/toZQf2SfQ82waITrCm1YEs5K3gvhuL7wtRMTEI9B5TPaVVHANEhQqupD/Dz8WQVGDGQcpMgcn7BEUgLL2ge47mGXvkkloPFCUI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3Y3yGX3SW764TkSLF/PzdSgFfY/N1HvDL+iHbAlOSHbbpZEEmg65iHWgbKZejG399Dtc9LBFX7fe1YvVNyRmOL7urq2DKsSdEimT0bQapxpT0Cf8Ss1asM8J7aKHnNTOTglLtIA563SgDYKJe0NorxVI6UifLB/iYdy6Ndl5Ijc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b9fb61abbdad856af9a0f82c37ebcca529f49298" Description="" Url=""><as:assemblyIdentity name="fwknop-gui.exe" version="1.0.0.0" publicKeyToken="d0f37ccb1e6ff8fc" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=flight-PC\flight</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dhhlck32+hVqYjWw6urWPIIkEeM=</DigestValue></Reference></SignedInfo><SignatureValue>onevyw9bKPpst9W2Zacnu3EGDIcNvt3yEOUkBOxxG9uUnXvhP+oQN1r5wixrBGqGmfj3bgzhFgCJu/EAFD5O0PeS50cg2zyBAI8OJmIVuGwtB6GDLqJ4dtVxzU++wa0xQ0QheCyV4Hs4sWTiw3KyobADjc8KKLPGBbuKaTQhrIg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3Y3yGX3SW764TkSLF/PzdSgFfY/N1HvDL+iHbAlOSHbbpZEEmg65iHWgbKZejG399Dtc9LBFX7fe1YvVNyRmOL7urq2DKsSdEimT0bQapxpT0Cf8Ss1asM8J7aKHnNTOTglLtIA563SgDYKJe0NorxVI6UifLB/iYdy6Ndl5Ijc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQIc84XrkJi6tENFRbM/fw/TANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAZgBsAGkAZwBoAHQALQBQAEMAXABmAGwAaQBnAGgAdDAeFw0xMjA3MTYwOTM3NTdaFw0xMzA3MTYxNTM3NTdaMCsxKTAnBgNVBAMeIABmAGwAaQBnAGgAdAAtAFAAQwBcAGYAbABpAGcAaAB0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdjfIZfdJbvrhORIsX8/N1KAV9j83Ue8Mv6IdsCU5IdtulkQSaDrmIdaBspl6Mbf30O1z0sEVft97Vi9U3JGY4vu6urYMqxJ0SKZPRtBqnGlPQJ/xKzVqwzwntooec1M5OCUu0gDnrdKANgol7Q2ivFUjpSJ8sH+Jh3Lo12XkiNwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAL5TFFwoes53mM8CkB+Bb3x4ePhSrlbeUHlzziU1vRVKq1clywTS/3Il8xsD3a7vHCwulN8Sdrcr0tt+nN2VzUvZfVEjwpRSIJr4YMiAp/8rpaG1fw7M26LcaaJxefsxyIheuTUETtJjTs+SL0Plqd/4q8vQAa2YzGVAW8tKGMWs</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
